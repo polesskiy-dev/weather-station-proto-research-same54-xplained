@@ -119,8 +119,11 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
  ../src/config/default/peripheral/nvic/plib_nvic.h \
+ ../src/config/default/peripheral/systick/plib_systick.h \
  ../src/config/default/peripheral/cmcc/plib_cmcc.h \
- ../src/config/default/peripheral/rtc/plib_rtc.h
+ ../src/config/default/peripheral/rtc/plib_rtc.h \
+ ../src/config/default/bsp/bsp.h \
+ ../src/../libraries/microchip-LoRa-semtech/src/LoRa.h
 
 ../src/config/default/definitions.h:
 
@@ -364,6 +367,12 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 
 ../src/config/default/peripheral/nvic/plib_nvic.h:
 
+../src/config/default/peripheral/systick/plib_systick.h:
+
 ../src/config/default/peripheral/cmcc/plib_cmcc.h:
 
 ../src/config/default/peripheral/rtc/plib_rtc.h:
+
+../src/config/default/bsp/bsp.h:
+
+../src/../libraries/microchip-LoRa-semtech/src/LoRa.h:

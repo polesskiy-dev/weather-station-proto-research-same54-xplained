@@ -74,6 +74,11 @@
 #define SCK_LORA_PIN                  PORT_PIN_PC05
 
 /*** Macros for SS_LORA pin ***/
+#define SS_LORA_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 6U))
+#define SS_LORA_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = ((uint32_t)1U << 6U))
+#define SS_LORA_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = ((uint32_t)1U << 6U))
+#define SS_LORA_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = ((uint32_t)1U << 6U))
+#define SS_LORA_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = ((uint32_t)1U << 6U))
 #define SS_LORA_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 6U)) & 0x01U)
 #define SS_LORA_PIN                  PORT_PIN_PC06
 

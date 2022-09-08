@@ -21,7 +21,7 @@
 24,PA07,,Available,,,,,,NORMAL
 27,PC04,MOSI_LORA,SERCOM6_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
 28,PC05,SCK_LORA,SERCOM6_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
-29,PC06,SS_LORA,SERCOM6_PAD2,Digital,High Impedance,n/a,No,No,NORMAL
+29,PC06,SS_LORA,GPIO,Digital,Out,High,,,NORMAL
 30,PC07,MISO_LORA,SERCOM6_PAD3,Digital,High Impedance,n/a,Yes,No,NORMAL
 33,PA08,,Available,,,,,,NORMAL
 34,PA09,,Available,,,,,,NORMAL

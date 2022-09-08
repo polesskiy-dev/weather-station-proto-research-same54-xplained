@@ -120,6 +120,7 @@ build/default/production/_ext/1171490990/exceptions.o: \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
  ../src/config/default/peripheral/nvic/plib_nvic.h \
+ ../src/config/default/peripheral/systick/plib_systick.h \
  ../src/config/default/peripheral/cmcc/plib_cmcc.h \
  ../src/config/default/peripheral/rtc/plib_rtc.h
 
@@ -366,6 +367,8 @@ build/default/production/_ext/1171490990/exceptions.o: \
 ../src/config/default/peripheral/clock/plib_clock.h:
 
 ../src/config/default/peripheral/nvic/plib_nvic.h:
+
+../src/config/default/peripheral/systick/plib_systick.h:
 
 ../src/config/default/peripheral/cmcc/plib_cmcc.h:
 

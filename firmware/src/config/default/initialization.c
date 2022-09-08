@@ -138,6 +138,7 @@ void SYS_Initialize ( void* data )
 
     SERCOM6_SPI_Initialize();
 
+	SYSTICK_TimerInitialize();
     RTC_Initialize();
 
 
